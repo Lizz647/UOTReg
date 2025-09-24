@@ -1,6 +1,7 @@
 # loading trajectory data and carry out LLM analysis
 
 library(rhdf5)
+# make suret that you correctly set the `result_folder` variable at the start of the notebook 
 result_folder <- "/Users/binghao/Desktop/Research/OT-singlecell/UOTReg/results/"
 file = "dynamics/embryoid/traj_bundle.h5"
 file_path = paste(result_folder, file, sep = "")

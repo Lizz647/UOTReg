@@ -20,10 +20,31 @@ tqdm>=4.66
 matplotlib>=3.7
 ```
 
+```bash
+# ---- Additional packages for running the example notebooks/tutorials ----
+-r requirements.txt     # include all core requirements above
+
+scanpy>=1.9
+anndata>=0.9
+h5py>=3.10
+umap-learn>=0.5
+IPython>=8.0            # for display.clear_output
+seaborn>=0.12
+jupyter
+ipykernel
+```
+
 ### Install from GitHub
 
 ``````bash
+# It's best to create a new conda environment to run the files
+conda create -n uotreg-test python=3.10 -y
+conda activate uotreg-test
+# --- --- --- --- --- --- --- --- ---
 git clone https://github.com/Lizz647/UOTReg.git
+cd UOTReg # enter the downloaded folder
+pip install -r requirements.txt   
+pip install -r requirements_notebooks.txt
 ``````
 
 ## Usage
@@ -73,18 +94,4 @@ Specifically:
 ## Acknowledgement
 
 ## Citation
-
-```
-# ---- Additional packages for running the example notebooks/tutorials ----
--r requirements.txt     # include all core requirements above
-
-scanpy>=1.9
-anndata>=0.9
-h5py>=3.10
-umap-learn>=0.5
-IPython>=8.0            # for display.clear_output
-seaborn>=0.12
-jupyter
-ipykernel
-```
 
