@@ -1,0 +1,271 @@
+{
+  "gene": "Gata2",
+  "cluster_levels": [0, 1, 2, 3],
+  "df_summ": [
+    {
+      "cluster": 0,
+      "time_orig": 2,
+      "mu": 0.2365,
+      "se": 0.0103
+    },
+    {
+      "cluster": 0,
+      "time_orig": 3,
+      "mu": 0.1067,
+      "se": 0.0094
+    },
+    {
+      "cluster": 0,
+      "time_orig": 4,
+      "mu": 0.0267,
+      "se": 0.0086
+    },
+    {
+      "cluster": 0,
+      "time_orig": 5,
+      "mu": 0.0431,
+      "se": 0.0081
+    },
+    {
+      "cluster": 0,
+      "time_orig": 6,
+      "mu": 0.0605,
+      "se": 0.0109
+    },
+    {
+      "cluster": 1,
+      "time_orig": 2,
+      "mu": 0.2921,
+      "se": 0.0073
+    },
+    {
+      "cluster": 1,
+      "time_orig": 3,
+      "mu": 0.3364,
+      "se": 0.0076
+    },
+    {
+      "cluster": 1,
+      "time_orig": 4,
+      "mu": 0.3427,
+      "se": 0.0084
+    },
+    {
+      "cluster": 1,
+      "time_orig": 5,
+      "mu": 0.3331,
+      "se": 0.0108
+    },
+    {
+      "cluster": 1,
+      "time_orig": 6,
+      "mu": 0.4168,
+      "se": 0.0167
+    },
+    {
+      "cluster": 2,
+      "time_orig": 2,
+      "mu": 1.8631,
+      "se": 0.0357
+    },
+    {
+      "cluster": 2,
+      "time_orig": 3,
+      "mu": 2.1212,
+      "se": 0.0367
+    },
+    {
+      "cluster": 2,
+      "time_orig": 4,
+      "mu": 2.3664,
+      "se": 0.0404
+    },
+    {
+      "cluster": 2,
+      "time_orig": 5,
+      "mu": 2.5764,
+      "se": 0.0422
+    },
+    {
+      "cluster": 2,
+      "time_orig": 6,
+      "mu": 2.8509,
+      "se": 0.0481
+    },
+    {
+      "cluster": 3,
+      "time_orig": 2,
+      "mu": 0.0634,
+      "se": 0.0131
+    },
+    {
+      "cluster": 3,
+      "time_orig": 3,
+      "mu": -0.0515,
+      "se": 0.0123
+    },
+    {
+      "cluster": 3,
+      "time_orig": 4,
+      "mu": -0.0195,
+      "se": 0.0107
+    },
+    {
+      "cluster": 3,
+      "time_orig": 5,
+      "mu": 0.1036,
+      "se": 0.01
+    },
+    {
+      "cluster": 3,
+      "time_orig": 6,
+      "mu": 0.0609,
+      "se": 0.0154
+    }
+  ],
+  "fe_line": [
+    {
+      "time_orig": 2,
+      "t_cent": -2,
+      "cluster": 0,
+      "pred": 0.1778
+    },
+    {
+      "time_orig": 3,
+      "t_cent": -1,
+      "cluster": 0,
+      "pred": 0.1363
+    },
+    {
+      "time_orig": 4,
+      "t_cent": 0,
+      "cluster": 0,
+      "pred": 0.0947
+    },
+    {
+      "time_orig": 5,
+      "t_cent": 1,
+      "cluster": 0,
+      "pred": 0.0531
+    },
+    {
+      "time_orig": 6,
+      "t_cent": 2,
+      "cluster": 0,
+      "pred": 0.0116
+    },
+    {
+      "time_orig": 2,
+      "t_cent": -2,
+      "cluster": 1,
+      "pred": 0.295
+    },
+    {
+      "time_orig": 3,
+      "t_cent": -1,
+      "cluster": 1,
+      "pred": 0.3196
+    },
+    {
+      "time_orig": 4,
+      "t_cent": 0,
+      "cluster": 1,
+      "pred": 0.3442
+    },
+    {
+      "time_orig": 5,
+      "t_cent": 1,
+      "cluster": 1,
+      "pred": 0.3688
+    },
+    {
+      "time_orig": 6,
+      "t_cent": 2,
+      "cluster": 1,
+      "pred": 0.3934
+    },
+    {
+      "time_orig": 2,
+      "t_cent": -2,
+      "cluster": 2,
+      "pred": 1.8694
+    },
+    {
+      "time_orig": 3,
+      "t_cent": -1,
+      "cluster": 2,
+      "pred": 2.1125
+    },
+    {
+      "time_orig": 4,
+      "t_cent": 0,
+      "cluster": 2,
+      "pred": 2.3556
+    },
+    {
+      "time_orig": 5,
+      "t_cent": 1,
+      "cluster": 2,
+      "pred": 2.5987
+    },
+    {
+      "time_orig": 6,
+      "t_cent": 2,
+      "cluster": 2,
+      "pred": 2.8417
+    },
+    {
+      "time_orig": 2,
+      "t_cent": -2,
+      "cluster": 3,
+      "pred": 0.0014
+    },
+    {
+      "time_orig": 3,
+      "t_cent": -1,
+      "cluster": 3,
+      "pred": 0.0164
+    },
+    {
+      "time_orig": 4,
+      "t_cent": 0,
+      "cluster": 3,
+      "pred": 0.0314
+    },
+    {
+      "time_orig": 5,
+      "t_cent": 1,
+      "cluster": 3,
+      "pred": 0.0464
+    },
+    {
+      "time_orig": 6,
+      "t_cent": 2,
+      "cluster": 3,
+      "pred": 0.0614
+    }
+  ],
+  "breaks": [],
+  "model_map": [
+    {
+      "cluster": 0,
+      "model": "1p"
+    },
+    {
+      "cluster": 1,
+      "model": "1p"
+    },
+    {
+      "cluster": 2,
+      "model": "1p"
+    },
+    {
+      "cluster": 3,
+      "model": "1p"
+    },
+    {
+      "cluster": 5,
+      "model": "1p"
+    }
+  ]
+}

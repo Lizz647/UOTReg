@@ -1,0 +1,404 @@
+{
+  "gene": "GATA6",
+  "cluster_levels": [0, 1, 2, 3, 4, 5],
+  "df_summ": [
+    {
+      "cluster": 0,
+      "time_orig": 1.5,
+      "mu": 0.0427,
+      "se": 0.0055
+    },
+    {
+      "cluster": 0,
+      "time_orig": 7.5,
+      "mu": 0.1725,
+      "se": 0.0149
+    },
+    {
+      "cluster": 0,
+      "time_orig": 13.5,
+      "mu": 0.2236,
+      "se": 0.0201
+    },
+    {
+      "cluster": 0,
+      "time_orig": 19.5,
+      "mu": 0.2205,
+      "se": 0.0164
+    },
+    {
+      "cluster": 0,
+      "time_orig": 25.5,
+      "mu": 0.1157,
+      "se": 0.0149
+    },
+    {
+      "cluster": 1,
+      "time_orig": 1.5,
+      "mu": 0.0308,
+      "se": 0.0028
+    },
+    {
+      "cluster": 1,
+      "time_orig": 7.5,
+      "mu": 0.3728,
+      "se": 0.0122
+    },
+    {
+      "cluster": 1,
+      "time_orig": 13.5,
+      "mu": 0.5129,
+      "se": 0.0114
+    },
+    {
+      "cluster": 1,
+      "time_orig": 19.5,
+      "mu": 0.4762,
+      "se": 0.0099
+    },
+    {
+      "cluster": 1,
+      "time_orig": 25.5,
+      "mu": 0.3192,
+      "se": 0.01
+    },
+    {
+      "cluster": 2,
+      "time_orig": 1.5,
+      "mu": -0.0117,
+      "se": 0.0017
+    },
+    {
+      "cluster": 2,
+      "time_orig": 7.5,
+      "mu": 0.0544,
+      "se": 0.0067
+    },
+    {
+      "cluster": 2,
+      "time_orig": 13.5,
+      "mu": 0.1333,
+      "se": 0.0082
+    },
+    {
+      "cluster": 2,
+      "time_orig": 19.5,
+      "mu": 0.176,
+      "se": 0.007
+    },
+    {
+      "cluster": 2,
+      "time_orig": 25.5,
+      "mu": 0.0973,
+      "se": 0.0055
+    },
+    {
+      "cluster": 3,
+      "time_orig": 1.5,
+      "mu": -0.0018,
+      "se": 0.0024
+    },
+    {
+      "cluster": 3,
+      "time_orig": 7.5,
+      "mu": 0.0809,
+      "se": 0.0091
+    },
+    {
+      "cluster": 3,
+      "time_orig": 13.5,
+      "mu": 0.1427,
+      "se": 0.0107
+    },
+    {
+      "cluster": 3,
+      "time_orig": 19.5,
+      "mu": 0.1717,
+      "se": 0.009
+    },
+    {
+      "cluster": 3,
+      "time_orig": 25.5,
+      "mu": 0.0866,
+      "se": 0.0073
+    },
+    {
+      "cluster": 4,
+      "time_orig": 1.5,
+      "mu": -0.0066,
+      "se": 0.0024
+    },
+    {
+      "cluster": 4,
+      "time_orig": 7.5,
+      "mu": 0.0103,
+      "se": 0.0049
+    },
+    {
+      "cluster": 4,
+      "time_orig": 13.5,
+      "mu": 0.057,
+      "se": 0.0062
+    },
+    {
+      "cluster": 4,
+      "time_orig": 19.5,
+      "mu": 0.1105,
+      "se": 0.006
+    },
+    {
+      "cluster": 4,
+      "time_orig": 25.5,
+      "mu": 0.0653,
+      "se": 0.0045
+    },
+    {
+      "cluster": 5,
+      "time_orig": 1.5,
+      "mu": 0.051,
+      "se": 0.0057
+    },
+    {
+      "cluster": 5,
+      "time_orig": 7.5,
+      "mu": 0.3619,
+      "se": 0.0148
+    },
+    {
+      "cluster": 5,
+      "time_orig": 13.5,
+      "mu": 0.4957,
+      "se": 0.0118
+    },
+    {
+      "cluster": 5,
+      "time_orig": 19.5,
+      "mu": 0.4786,
+      "se": 0.011
+    },
+    {
+      "cluster": 5,
+      "time_orig": 25.5,
+      "mu": 0.3128,
+      "se": 0.0118
+    }
+  ],
+  "fe_line": [
+    {
+      "time_orig": 1.5,
+      "t_cent": -12,
+      "cluster": 0,
+      "pred": 0.1162
+    },
+    {
+      "time_orig": 7.5,
+      "t_cent": -6,
+      "cluster": 0,
+      "pred": 0.1356
+    },
+    {
+      "time_orig": 13.5,
+      "t_cent": 0,
+      "cluster": 0,
+      "pred": 0.155
+    },
+    {
+      "time_orig": 19.5,
+      "t_cent": 6,
+      "cluster": 0,
+      "pred": 0.1744
+    },
+    {
+      "time_orig": 25.5,
+      "t_cent": 12,
+      "cluster": 0,
+      "pred": 0.1938
+    },
+    {
+      "time_orig": 1.5,
+      "t_cent": -12,
+      "cluster": 1,
+      "pred": 0.062
+    },
+    {
+      "time_orig": 7.5,
+      "t_cent": -6,
+      "cluster": 1,
+      "pred": 0.3104
+    },
+    {
+      "time_orig": 13.5,
+      "t_cent": 0,
+      "cluster": 1,
+      "pred": 0.5589
+    },
+    {
+      "time_orig": 19.5,
+      "t_cent": 6,
+      "cluster": 1,
+      "pred": 0.4465
+    },
+    {
+      "time_orig": 25.5,
+      "t_cent": 12,
+      "cluster": 1,
+      "pred": 0.3341
+    },
+    {
+      "time_orig": 1.5,
+      "t_cent": -12,
+      "cluster": 2,
+      "pred": 0.0219
+    },
+    {
+      "time_orig": 7.5,
+      "t_cent": -6,
+      "cluster": 2,
+      "pred": 0.0559
+    },
+    {
+      "time_orig": 13.5,
+      "t_cent": 0,
+      "cluster": 2,
+      "pred": 0.0898
+    },
+    {
+      "time_orig": 19.5,
+      "t_cent": 6,
+      "cluster": 2,
+      "pred": 0.1238
+    },
+    {
+      "time_orig": 25.5,
+      "t_cent": 12,
+      "cluster": 2,
+      "pred": 0.1578
+    },
+    {
+      "time_orig": 1.5,
+      "t_cent": -12,
+      "cluster": 3,
+      "pred": 0.0425
+    },
+    {
+      "time_orig": 7.5,
+      "t_cent": -6,
+      "cluster": 3,
+      "pred": 0.0693
+    },
+    {
+      "time_orig": 13.5,
+      "t_cent": 0,
+      "cluster": 3,
+      "pred": 0.096
+    },
+    {
+      "time_orig": 19.5,
+      "t_cent": 6,
+      "cluster": 3,
+      "pred": 0.1228
+    },
+    {
+      "time_orig": 25.5,
+      "t_cent": 12,
+      "cluster": 3,
+      "pred": 0.1495
+    },
+    {
+      "time_orig": 1.5,
+      "t_cent": -12,
+      "cluster": 4,
+      "pred": -0.0015
+    },
+    {
+      "time_orig": 7.5,
+      "t_cent": -6,
+      "cluster": 4,
+      "pred": 0.0229
+    },
+    {
+      "time_orig": 13.5,
+      "t_cent": 0,
+      "cluster": 4,
+      "pred": 0.0473
+    },
+    {
+      "time_orig": 19.5,
+      "t_cent": 6,
+      "cluster": 4,
+      "pred": 0.0717
+    },
+    {
+      "time_orig": 25.5,
+      "t_cent": 12,
+      "cluster": 4,
+      "pred": 0.0961
+    },
+    {
+      "time_orig": 1.5,
+      "t_cent": -12,
+      "cluster": 5,
+      "pred": 0.0771
+    },
+    {
+      "time_orig": 7.5,
+      "t_cent": -6,
+      "cluster": 5,
+      "pred": 0.3097
+    },
+    {
+      "time_orig": 13.5,
+      "t_cent": 0,
+      "cluster": 5,
+      "pred": 0.5422
+    },
+    {
+      "time_orig": 19.5,
+      "t_cent": 6,
+      "cluster": 5,
+      "pred": 0.4377
+    },
+    {
+      "time_orig": 25.5,
+      "t_cent": 12,
+      "cluster": 5,
+      "pred": 0.3333
+    }
+  ],
+  "breaks": [
+    {
+      "cluster": 1,
+      "tau_time": 13.5
+    },
+    {
+      "cluster": 5,
+      "tau_time": 13.5
+    }
+  ],
+  "model_map": [
+    {
+      "cluster": 0,
+      "model": "1p"
+    },
+    {
+      "cluster": 1,
+      "model": "2p"
+    },
+    {
+      "cluster": 2,
+      "model": "1p"
+    },
+    {
+      "cluster": 3,
+      "model": "1p"
+    },
+    {
+      "cluster": 4,
+      "model": "1p"
+    },
+    {
+      "cluster": 5,
+      "model": "2p"
+    }
+  ]
+}
