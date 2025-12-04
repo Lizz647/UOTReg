@@ -18,6 +18,7 @@ torch>=2.1,<2.4
 scikit-learn>=1.3
 tqdm>=4.66
 matplotlib>=3.7
+POT
 ```
 
 ```bash
