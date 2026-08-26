@@ -1,0 +1,48 @@
+{
+  "dataset": "statefate",
+  "dim": 20,
+  "held": 4.0,
+  "method": "TIGONnbrfwd",
+  "exp": "safe_h64",
+  "readout": "nbrfwd (nearest earlier)",
+  "partial": false,
+  "iters_run": 5000,
+  "from_day": 2.0,
+  "move": 0.27537233931111693,
+  "niters": 5000,
+  "repeats": 50,
+  "bench_n": 1000,
+  "metrics": {
+    "MMD": {
+      "mean": 0.23343119405942914,
+      "std": 0.02105886310972857
+    },
+    "EMD": {
+      "mean": 6.917117625959326,
+      "std": 0.17019535909526695
+    },
+    "W2": {
+      "mean": 7.515686037278809,
+      "std": 0.21704315565700597
+    }
+  },
+  "carry_forward": {
+    "MMD": {
+      "mean": 0.2268471984501187,
+      "std": 0.019667926982672185
+    },
+    "EMD": {
+      "mean": 6.876246080413758,
+      "std": 0.18128467032132123
+    },
+    "W2": {
+      "mean": 7.548552298219403,
+      "std": 0.2339428279546973
+    }
+  },
+  "minutes": 42.14944023688634,
+  "data_scale": 1.0,
+  "sigma": 1.0,
+  "lam_density": 10000.0,
+  "hidden_dim": 64
+}

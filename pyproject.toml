@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uotreg"
+version = "0.1.0"
+description = "Robust local-Frechet regression with unbalanced neural optimal transport for single-cell dynamics (JCGS revision)"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Binghao Yan"}]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "torch>=1.13",
+]
+
+[project.optional-dependencies]
+# Optional extras used by some notebooks / features. `requirements.txt` lists the full
+# notebook environment with the versions the paper's runs used.
+ot = ["pot"]                 # exact-OT metrics + minibatch-OT coupling for flow matching
+data = ["anndata", "h5py", "pandas", "scikit-learn"]
+notebooks = ["matplotlib", "seaborn", "scipy", "jupyter", "ipykernel"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

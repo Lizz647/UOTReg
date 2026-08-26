@@ -1,0 +1,5 @@
+candidate,overlap_final,prose_final,overlap_initial,prose_initial,unmatched,min_cluster,sizes
+seed5,4.25,0.625,8.25,1.0,0,243,"[243, 548, 307, 1902]"
+seed3,3.5,0.625,8.25,1.0,0,241,"[649, 1811, 299, 241]"
+seed2,3.25,0.625,7.5,1.0,0,278,"[496, 1869, 357, 278]"
+seed4,1.75,0.25,4.75,0.75,0,269,"[857, 1013, 861, 269]"

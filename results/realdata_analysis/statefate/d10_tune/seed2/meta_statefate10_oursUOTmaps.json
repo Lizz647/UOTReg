@@ -1,0 +1,48 @@
+{
+  "dataset": "statefate",
+  "dim": 10,
+  "seed": 2,
+  "grid": [
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0
+  ],
+  "cfg": {
+    "tau": 50.0,
+    "d_iters": null,
+    "t_iters": null,
+    "n_clust": 4,
+    "clust_seed": 0,
+    "n_all": 3000,
+    "start": "published",
+    "mds_components": 10,
+    "n_clust_cells": 3000
+  },
+  "start": "published",
+  "n_start": 3000,
+  "start_source": "/Users/binghao/Desktop/Research/OT-singlecell/JCGSrevision/oldcode/UOTReg/results/dynamics/statefate/starting3000.npy",
+  "metrics": {
+    "fidelity": 4.6619303626095965,
+    "retention": 0.21962156608441438,
+    "purity_own": 3.609965552925396,
+    "purity_obs": 3.7257334927753445,
+    "spread": 0.8456766536527948,
+    "purity_norm": 0.3583380865766525
+  },
+  "fidelity_t": {
+    "2.0": 2.571088248029049,
+    "4.0": 6.366235166597094,
+    "6.0": 5.048467673202646
+  },
+  "wot_metrics": {
+    "fidelity": 4.316349266550224,
+    "retention": 0.24383891452544704,
+    "purity_own": 4.8549761386559815,
+    "purity_obs": 4.8549761386559815,
+    "spread": 0.9861392385535552,
+    "purity_norm": 0.39387574359539346
+  },
+  "seconds": 414.40399193763733
+}

@@ -1,0 +1,40 @@
+{
+  "dataset": "statefate",
+  "dim": 20,
+  "n_start": 28249,
+  "traj_tau": 50.0,
+  "n_clusters": 4,
+  "n_clust_cells": 1000,
+  "grids": {
+    "oursUOTmaps": [
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+    ],
+    "oursOT-CFM": [
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+    ],
+    "WOT": [
+      2.0,
+      4.0,
+      6.0
+    ],
+    "MMFM": [
+      2.0,
+      4.0,
+      6.0
+    ]
+  },
+  "methods": [
+    "ours: UOT maps",
+    "ours: OT-CFM",
+    "WOT",
+    "MMFM"
+  ]
+}

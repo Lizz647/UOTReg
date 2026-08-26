@@ -1,0 +1,127 @@
+{
+ "ours: UOT maps": {
+  "stamp": {
+   "path": "newcode/results_final/realdata_analysis/embryoid/d20_tune/seed5/traj_embryoid20_oursUOTmaps.npy",
+   "mtime": 1787149841.2811887,
+   "n_sub": 1000,
+   "k": 10,
+   "seed": 0,
+   "v": 3
+  },
+  "metrics": {
+   "fidelity_t": {
+    "1.5": 2.5699678211573045,
+    "7.5": 4.064628125820549,
+    "13.5": 4.979895186852173,
+    "19.5": 5.288554456860099,
+    "25.5": 4.917669993882667
+   },
+   "fidelity": 4.3641431169145575,
+   "retention": 0.07769412785357056,
+   "purity_own": 4.760434912722899,
+   "purity_obs": 4.767882245605143,
+   "spread_ratio": 0.7932596093974801,
+   "spread_err": 0.20674039060251992
+  }
+ },
+ "WOT": {
+  "stamp": {
+   "path": "newcode/results_final/realdata_analysis/embryoid/d20/wot_final/traj_embryoid20_WOT.npy",
+   "mtime": 1786723833.351438,
+   "n_sub": 1000,
+   "k": 10,
+   "seed": 0,
+   "v": 3
+  },
+  "metrics": {
+   "fidelity_t": {
+    "1.5": 2.5699678211573045,
+    "7.5": 4.332297734060147,
+    "13.5": 5.2294843775102935,
+    "19.5": 5.269853779909948,
+    "25.5": 5.275719783352822
+   },
+   "fidelity": 4.535464699198103,
+   "retention": 0.11323733636504535,
+   "purity_own": 5.524406551654428,
+   "purity_obs": 5.524406551654428,
+   "spread_ratio": 0.8533956604699212,
+   "spread_err": 0.1466043395300788
+  }
+ },
+ "MMFM": {
+  "stamp": {
+   "path": "newcode/results_final/realdata_analysis/embryoid/d20/mmfm_final/traj_embryoid20_MMFM.npy",
+   "mtime": 1787101983.469574,
+   "n_sub": 1000,
+   "k": 10,
+   "seed": 0,
+   "v": 3
+  },
+  "metrics": {
+   "fidelity_t": {
+    "1.5": 2.5699678211573045,
+    "7.5": 4.4010984033282785,
+    "13.5": 5.561448312228003,
+    "19.5": 6.045766427249418,
+    "25.5": 6.2150354661211145
+   },
+   "fidelity": 4.958663286016824,
+   "retention": 0.14756508824852477,
+   "purity_own": 4.837132083401879,
+   "purity_obs": 4.837132083401879,
+   "spread_ratio": 1.0268898914115088,
+   "spread_err": 0.02688989141150877
+  }
+ },
+ "MioFlow": {
+  "stamp": {
+   "path": "newcode/results_final/realdata_analysis/embryoid/d20/mioflow_final/traj_embryoid20_MioFlow.npy",
+   "mtime": 1787108623.188454,
+   "n_sub": 1000,
+   "k": 10,
+   "seed": 0,
+   "v": 3
+  },
+  "metrics": {
+   "fidelity_t": {
+    "1.5": 2.6576141609380053,
+    "7.5": 4.782661430738836,
+    "13.5": 6.313026419519419,
+    "19.5": 6.798405889203538,
+    "25.5": 5.373595882605526
+   },
+   "fidelity": 5.185060756601065,
+   "retention": 0.36738916166392943,
+   "purity_own": 2.473638451639769,
+   "purity_obs": 2.473638451639769,
+   "spread_ratio": 0.6962038546084068,
+   "spread_err": 0.30379614539159316
+  }
+ },
+ "TIGON": {
+  "stamp": {
+   "path": "newcode/results_final/realdata_analysis/embryoid/d20/tigon_final/traj_embryoid20_TIGON.npy",
+   "mtime": 1787257500.15199,
+   "n_sub": 1000,
+   "k": 10,
+   "seed": 0,
+   "v": 3
+  },
+  "metrics": {
+   "fidelity_t": {
+    "1.5": 2.5699678216211796,
+    "7.5": 6.536453831943632,
+    "13.5": 8.835708935173933,
+    "19.5": 9.223276319388168,
+    "25.5": 8.828339463024339
+   },
+   "fidelity": 7.1987492742302495,
+   "retention": 0.5478901784490019,
+   "purity_own": 3.4378373992480493,
+   "purity_obs": 3.4378373992480493,
+   "spread_ratio": 0.7691172291066214,
+   "spread_err": 0.2308827708933786
+  }
+ }
+}

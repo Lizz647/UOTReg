@@ -1,0 +1,9 @@
+{
+ "traj_statefate20_WOT.npy": {
+  "copied_from": "statefate/d20/traj_statefate20_WOT.npy",
+  "src_mtime": 1786543233.2847288,
+  "src_mtime_str": "2026-08-12 10:00",
+  "bytes": 6779888,
+  "producer": "trajectory_analysis.py (FIT section)"
+ }
+}

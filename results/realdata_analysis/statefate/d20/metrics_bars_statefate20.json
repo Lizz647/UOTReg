@@ -1,0 +1,94 @@
+{
+ "ours: UOT maps": {
+  "stamp": {
+   "path": "newcode/results_final/realdata_analysis/statefate/d20_tune/seed2/traj_statefate20_oursUOTmaps.npy",
+   "mtime": 1787149823.3465276,
+   "n_sub": 1000,
+   "k": 10,
+   "seed": 0,
+   "v": 3
+  },
+  "metrics": {
+   "fidelity_t": {
+    "2.0": 4.404388505922178,
+    "4.0": 6.003601278876677,
+    "6.0": 5.963035283790413
+   },
+   "fidelity": 5.457008356196423,
+   "retention": 0.15421343018866238,
+   "purity_own": 5.477543674327462,
+   "purity_obs": 5.6449951615180085,
+   "spread_ratio": 0.8381518348350493,
+   "spread_err": 0.1618481651649507
+  }
+ },
+ "WOT": {
+  "stamp": {
+   "path": "newcode/results_final/realdata_analysis/statefate/d20/wot_final/traj_statefate20_WOT.npy",
+   "mtime": 1786543233.2847288,
+   "n_sub": 1000,
+   "k": 10,
+   "seed": 0,
+   "v": 3
+  },
+  "metrics": {
+   "fidelity_t": {
+    "2.0": 4.256106450281203,
+    "4.0": 6.877486860605291,
+    "6.0": 6.790770152881917
+   },
+   "fidelity": 5.974787821256137,
+   "retention": 0.18279567826394452,
+   "purity_own": 7.774881457695481,
+   "purity_obs": 7.774881457695481,
+   "spread_ratio": 1.0421220453655025,
+   "spread_err": 0.04212204536550246
+  }
+ },
+ "MMFM": {
+  "stamp": {
+   "path": "newcode/results_final/realdata_analysis/statefate/d20/mmfm_final/traj_statefate20_MMFM.npy",
+   "mtime": 1787243633.355531,
+   "n_sub": 1000,
+   "k": 10,
+   "seed": 0,
+   "v": 3
+  },
+  "metrics": {
+   "fidelity_t": {
+    "2.0": 4.256106450281203,
+    "4.0": 6.0117956451102135,
+    "6.0": 6.7150665729556325
+   },
+   "fidelity": 5.660989556115683,
+   "retention": 0.17835223333597947,
+   "purity_own": 6.804960688604593,
+   "purity_obs": 6.804960688604593,
+   "spread_ratio": 1.0379050332809117,
+   "spread_err": 0.03790503328091166
+  }
+ },
+ "MioFlow": {
+  "stamp": {
+   "path": "newcode/results_final/realdata_analysis/statefate/d20/mioflow_final/traj_statefate20_MioFlow.npy",
+   "mtime": 1787243663.4674659,
+   "n_sub": 1000,
+   "k": 10,
+   "seed": 0,
+   "v": 3
+  },
+  "metrics": {
+   "fidelity_t": {
+    "2.0": 4.134708989800873,
+    "4.0": 6.462111779625686,
+    "6.0": 6.733099275935965
+   },
+   "fidelity": 5.776640015120841,
+   "retention": 0.31265286880302356,
+   "purity_own": 4.033152891177184,
+   "purity_obs": 4.033152891177184,
+   "spread_ratio": 0.7410006927095595,
+   "spread_err": 0.2589993072904405
+  }
+ }
+}

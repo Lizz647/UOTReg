@@ -1,0 +1,16 @@
+{
+ "traj_embryoid20_oursUOTmaps.npy": {
+  "copied_from": "embryoid/d20/traj_embryoid20_oursUOTmaps.npy",
+  "src_mtime": 1786723833.3476849,
+  "src_mtime_str": "2026-08-14 12:10",
+  "bytes": 1714448,
+  "producer": "trajectory_analysis.py (FIT section)"
+ },
+ "traj_embryoid20_oursOT-CFM.npy": {
+  "copied_from": "embryoid/d20/traj_embryoid20_oursOT-CFM.npy",
+  "src_mtime": 1786723833.3502202,
+  "src_mtime_str": "2026-08-14 12:10",
+  "bytes": 1714448,
+  "producer": "trajectory_analysis.py (FIT section)"
+ }
+}

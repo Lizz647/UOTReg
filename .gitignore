@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.bak
+.ipynb_checkpoints/
+.DS_Store
+*.egg-info/
+build/
+_smoke_runs/
+# everything a SAVE=1 run produces -- yours, not the repository's
+new_results/
+# the one data file too large for the repo (see README) -- a locally placed copy must not be committed
+data/scrna-statefate/invitro-hvg.h5ad

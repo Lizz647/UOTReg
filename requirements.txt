@@ -1,0 +1,16 @@
+# ---- Minimal environment: every notebook except the optional cases below (Python 3.10+) ----
+# The versions in parentheses are the ones the paper's runs used (Python 3.10, torch 2.6).
+numpy>=1.24         # (2.2.5)
+scipy>=1.10         # (1.15.2)
+torch>=2.1          # (2.6.0)   CPU build is enough; the notebooks default to DEVICE="cpu"
+scikit-learn>=1.3   # (1.5.2)
+POT>=0.9            # (0.9.5)   exact-OT metrics + minibatch-OT couplings
+matplotlib>=3.7     # (3.10.1)
+seaborn>=0.12       # (0.13.2)
+pandas>=2.0         # (2.2.3)
+jupyter             # to open the notebooks (any notebook frontend works)
+ipykernel
+
+# ---- Optional, by notebook ----
+h5py>=3.10          # (3.13.0)  d=50 only: reads obsm/X_pca straight from the .h5ad files
+anndata>=0.9        # (0.11.4)  gene-space work (the gene-dynamics section of figures) + d=50

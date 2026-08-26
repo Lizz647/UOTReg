@@ -1,0 +1,420 @@
+{
+  "dataset": "statefate",
+  "dim": 20,
+  "method": "oursUOTmaps",
+  "top_n": 10,
+  "prose_n": 30,
+  "recluster": true,
+  "n_published_clusters": 4,
+  "ranking": [
+    {
+      "candidate": "seed5",
+      "overlap_final": 4.25,
+      "prose_final": 0.625,
+      "overlap_initial": 8.25,
+      "prose_initial": 1.0,
+      "unmatched": 0,
+      "min_cluster": 243,
+      "sizes": [
+        243,
+        548,
+        307,
+        1902
+      ]
+    },
+    {
+      "candidate": "seed3",
+      "overlap_final": 3.5,
+      "prose_final": 0.625,
+      "overlap_initial": 8.25,
+      "prose_initial": 1.0,
+      "unmatched": 0,
+      "min_cluster": 241,
+      "sizes": [
+        649,
+        1811,
+        299,
+        241
+      ]
+    },
+    {
+      "candidate": "seed2",
+      "overlap_final": 3.25,
+      "prose_final": 0.625,
+      "overlap_initial": 7.5,
+      "prose_initial": 1.0,
+      "unmatched": 0,
+      "min_cluster": 278,
+      "sizes": [
+        496,
+        1869,
+        357,
+        278
+      ]
+    },
+    {
+      "candidate": "seed4",
+      "overlap_final": 1.75,
+      "prose_final": 0.25,
+      "overlap_initial": 4.75,
+      "prose_initial": 0.75,
+      "unmatched": 0,
+      "min_cluster": 269,
+      "sizes": [
+        857,
+        1013,
+        861,
+        269
+      ]
+    }
+  ],
+  "detail": {
+    "seed2": {
+      "mapping": {
+        "0": 0,
+        "1": 1,
+        "2": 3,
+        "3": 2
+      },
+      "hits": {
+        "0": 6,
+        "1": 4,
+        "3": 3,
+        "2": 0
+      },
+      "unmatched": [],
+      "ini_hits": {
+        "0": 9,
+        "1": 7,
+        "2": 6,
+        "3": 8
+      },
+      "prose": {
+        "0": [
+          2,
+          2,
+          [
+            "CEBPE",
+            "LY6C2"
+          ]
+        ],
+        "1": [
+          2,
+          2,
+          [
+            "SOX4",
+            "CD34"
+          ]
+        ],
+        "2": [
+          0,
+          2,
+          []
+        ],
+        "3": [
+          1,
+          2,
+          [
+            "MAFB"
+          ]
+        ]
+      },
+      "prose_initial": {
+        "0": [
+          1,
+          1,
+          [
+            "ELANE"
+          ]
+        ],
+        "1": [
+          1,
+          1,
+          [
+            "CD34"
+          ]
+        ],
+        "2": [
+          1,
+          1,
+          [
+            "GATA2"
+          ]
+        ],
+        "3": [
+          1,
+          1,
+          [
+            "SIRPA"
+          ]
+        ]
+      },
+      "sizes": [
+        496,
+        1869,
+        357,
+        278
+      ]
+    },
+    "seed3": {
+      "mapping": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3
+      },
+      "hits": {
+        "0": 7,
+        "1": 1,
+        "2": 0,
+        "3": 6
+      },
+      "unmatched": [],
+      "ini_hits": {
+        "0": 9,
+        "1": 9,
+        "2": 6,
+        "3": 9
+      },
+      "prose": {
+        "0": [
+          2,
+          2,
+          [
+            "CEBPE",
+            "LY6C2"
+          ]
+        ],
+        "1": [
+          2,
+          2,
+          [
+            "SOX4",
+            "CD34"
+          ]
+        ],
+        "2": [
+          0,
+          2,
+          []
+        ],
+        "3": [
+          1,
+          2,
+          [
+            "MAFB"
+          ]
+        ]
+      },
+      "prose_initial": {
+        "0": [
+          1,
+          1,
+          [
+            "ELANE"
+          ]
+        ],
+        "1": [
+          1,
+          1,
+          [
+            "CD34"
+          ]
+        ],
+        "2": [
+          1,
+          1,
+          [
+            "GATA2"
+          ]
+        ],
+        "3": [
+          1,
+          1,
+          [
+            "SIRPA"
+          ]
+        ]
+      },
+      "sizes": [
+        649,
+        1811,
+        299,
+        241
+      ]
+    },
+    "seed4": {
+      "mapping": {
+        "0": 1,
+        "1": 3,
+        "2": 0,
+        "3": 2
+      },
+      "hits": {
+        "1": 0,
+        "3": 1,
+        "0": 6,
+        "2": 0
+      },
+      "unmatched": [],
+      "ini_hits": {
+        "0": 9,
+        "1": 3,
+        "2": 6,
+        "3": 1
+      },
+      "prose": {
+        "0": [
+          2,
+          2,
+          [
+            "CEBPE",
+            "LY6C2"
+          ]
+        ],
+        "1": [
+          0,
+          2,
+          []
+        ],
+        "2": [
+          0,
+          2,
+          []
+        ],
+        "3": [
+          0,
+          2,
+          []
+        ]
+      },
+      "prose_initial": {
+        "0": [
+          1,
+          1,
+          [
+            "ELANE"
+          ]
+        ],
+        "1": [
+          1,
+          1,
+          [
+            "CD34"
+          ]
+        ],
+        "2": [
+          1,
+          1,
+          [
+            "GATA2"
+          ]
+        ],
+        "3": [
+          0,
+          1,
+          []
+        ]
+      },
+      "sizes": [
+        857,
+        1013,
+        861,
+        269
+      ]
+    },
+    "seed5": {
+      "mapping": {
+        "0": 2,
+        "1": 0,
+        "2": 3,
+        "3": 1
+      },
+      "hits": {
+        "2": 0,
+        "0": 7,
+        "3": 7,
+        "1": 3
+      },
+      "unmatched": [],
+      "ini_hits": {
+        "0": 10,
+        "1": 8,
+        "2": 6,
+        "3": 9
+      },
+      "prose": {
+        "0": [
+          2,
+          2,
+          [
+            "CEBPE",
+            "LY6C2"
+          ]
+        ],
+        "1": [
+          1,
+          2,
+          [
+            "SOX4"
+          ]
+        ],
+        "2": [
+          0,
+          2,
+          []
+        ],
+        "3": [
+          2,
+          2,
+          [
+            "SIRPA",
+            "MAFB"
+          ]
+        ]
+      },
+      "prose_initial": {
+        "0": [
+          1,
+          1,
+          [
+            "ELANE"
+          ]
+        ],
+        "1": [
+          1,
+          1,
+          [
+            "CD34"
+          ]
+        ],
+        "2": [
+          1,
+          1,
+          [
+            "GATA2"
+          ]
+        ],
+        "3": [
+          1,
+          1,
+          [
+            "SIRPA"
+          ]
+        ]
+      },
+      "sizes": [
+        243,
+        548,
+        307,
+        1902
+      ]
+    }
+  },
+  "fates": {
+    "0": "neutrophil maturation",
+    "1": "early multipotent progenitor / lymphoid",
+    "2": "erythro-megakaryocytic (baso/eo/mast)",
+    "3": "monocyte"
+  }
+}

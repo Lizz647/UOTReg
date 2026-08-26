@@ -1,0 +1,88 @@
+{
+ "dataset": "statefate",
+ "dim": 20,
+ "method": "MioFlow",
+ "grid": [
+  2.0,
+  4.0,
+  6.0
+ ],
+ "n_cells": 28249,
+ "cfg": {
+  "layers": [
+   64,
+   64,
+   64
+  ],
+  "gae_hidden": 100,
+  "gae_emb_dim": 10,
+  "use_gae": true,
+  "n_global": 50,
+  "n_local": 30,
+  "n_post": 0,
+  "gae_epochs": 1000,
+  "sample_size": 100,
+  "criterion": "ot",
+  "use_density": true,
+  "lambda_density": 20,
+  "sde_scales": null,
+  "reverse": true,
+  "reverse_n": 2,
+  "n_cells": 16000,
+  "n_bins": 100,
+  "activation": "CELU"
+ },
+ "settings_source": "run_loo_baseline.MIOFLOW_TUNE over baselines/mioflow_*_old.py + the adopted sde_scales",
+ "deviates_from_loo": {
+  "sde_scales": {
+   "loo": 0.2,
+   "adopted": null
+  },
+  "n_local": {
+   "loo": 10,
+   "adopted": 30
+  }
+ },
+ "metrics": {
+  "fidelity_t": {
+   "2.0": 7.724393013050909,
+   "4.0": 7.3200574711499495,
+   "6.0": 7.842528935672392
+  },
+  "fidelity": 7.62899313995775,
+  "retention": 0.4220363902523345,
+  "purity_own": 3.013762216152499,
+  "purity_obs": 3.013762216152499,
+  "diag": {
+   "per_time": {
+    "2.0": {
+     "W2": 4.097606434175796,
+     "MMD": 0.02772831383537443,
+     "EMD": 3.942164866259653
+    },
+    "4.0": {
+     "W2": 6.7325592731571975,
+     "MMD": 0.13083827154793418,
+     "EMD": 6.133890344076417
+    },
+    "6.0": {
+     "W2": 6.779305549893523,
+     "MMD": 0.11618282509073273,
+     "EMD": 6.30083221702277
+    }
+   },
+   "regularity": {
+    "step_median": [
+     5.900880336761475,
+     3.5038959980010986
+    ],
+    "path_len": 9.680694580078125,
+    "net_disp": 8.75804328918457,
+    "tortuosity": 1.085985541343689,
+    "off_box_any": 0.0403908102941697,
+    "off_box_final": 0.03132854260327799
+   }
+  },
+  "cfg_label": "CFG (adopted)"
+ }
+}

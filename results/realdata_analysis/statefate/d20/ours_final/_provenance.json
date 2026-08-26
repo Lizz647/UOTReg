@@ -1,0 +1,16 @@
+{
+ "traj_statefate20_oursUOTmaps.npy": {
+  "copied_from": "statefate/d20/traj_statefate20_oursUOTmaps.npy",
+  "src_mtime": 1786543233.2770193,
+  "src_mtime_str": "2026-08-12 10:00",
+  "bytes": 11299728,
+  "producer": "trajectory_analysis.py (FIT section)"
+ },
+ "traj_statefate20_oursOT-CFM.npy": {
+  "copied_from": "statefate/d20/traj_statefate20_oursOT-CFM.npy",
+  "src_mtime": 1786543233.2838066,
+  "src_mtime_str": "2026-08-12 10:00",
+  "bytes": 11299728,
+  "producer": "trajectory_analysis.py (FIT section)"
+ }
+}

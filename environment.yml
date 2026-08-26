@@ -1,0 +1,13 @@
+# Minimal conda environment for this repository (see requirements.txt for the same list with the
+# versions the paper's runs used). Create + activate with:
+#     conda env create -f environment.yml
+#     conda activate uotreg
+#     pip install -e .
+name: uotreg
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - -r requirements.txt
