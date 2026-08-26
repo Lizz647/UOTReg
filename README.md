@@ -6,6 +6,8 @@ distribution at any time is estimated as an unbalanced-OT barycenter of the obse
 under local kernel weights, and individual cells are moved through the estimated
 distributions by composed unbalanced-OT maps or a flow-matching field.
 
+<img src="docs/uotreg_flowchart.png" alt="The UOTReg method" style="zoom:40%;" />
+
 ## Install
 
 ```bash
