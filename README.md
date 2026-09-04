@@ -50,14 +50,14 @@ A summary of all folders:
 
 | folder | training | figures |
 |---|---|---|
-| `01_simulation_outliers` | `run_outliers` | `outlier_figs` |
-| `02_simulation_divergence` | `divergence_outliers`, `divergence_realdata` | `divergence_figs` |
-| `03_simulation_batcheffect` | `bifurcation_estimate` → `bifurcation_trajectories` | `bifurcation_figs` |
-| `04_simulation_batcheffect_reverse` | `reverse_estimate` → `reverse_trajectories` | `reverse_figs` |
-| `05_realdata_loo` | `loo_embryoid`, `loo_statefate` | `loo_figs` |
-| `06_realdata_analysis` | `estimate_and_trajectories` | `figures`, `fates_and_markers`, `cross_dimension` |
+| `simulation_outliers` | `run_outliers` | `outlier_figs` |
+| `simulation_divergence` | `divergence_outliers`, `divergence_realdata` | `divergence_figs` |
+| `simulation_batcheffect` | `bifurcation_estimate` → `bifurcation_trajectories` | `bifurcation_figs` |
+| `simulation_batcheffect_reverse` | `reverse_estimate` → `reverse_trajectories` | `reverse_figs` |
+| `realdata_loo` | `loo_embryoid`, `loo_statefate` | `loo_figs` |
+| `realdata_analysis` | `estimate_and_trajectories` | `figures`, `fates_and_markers`, `cross_dimension` |
 
-To check an installation, run every notebook once at its `SMOKE = 1` defaults:
+To check an installation, run:
 
 ```bash
 python tools/run_all_smoke.py
